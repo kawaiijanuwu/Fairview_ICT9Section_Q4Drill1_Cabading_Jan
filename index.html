@@ -23,20 +23,20 @@
             return;
         }
 
-        if (consumption < 100){
-            alert("Low Consumption");
+        if (consumption < 101){
+            alert("Lifeline Consumer: Discounted Electricity Rates");
         }
-        else if (consumption < 200){
-            alert("Moderate Consumption");
+        else if (consumption < 201){
+            alert("Low Consumption: Normal residential rate");
         }
-        else if (consumption < 300){
-            alert("High Consumption");
+        else if (consumption < 301){
+            alert("Average Consumption: Typical electricity usage");
         }
-        else if (consumption < 500){
-            alert("Very High Consumption");
+        else if (consumption < 501){
+            alert("High Consumption: Higher electricity usage");
         }
         else{
-            alert("Extreme Consumption");
+            alert("Very High Consumption: Heavy electricity users");
         }
 
     }
